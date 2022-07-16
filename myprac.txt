@@ -1,2 +1,12 @@
 .gitignore = '커밋 또는 깃헙에 커밋 후 푸쉬과정에서 따로 제외시키고 싶은 파일들을 gitignore에 작성하여
 제외 시킬 수 있다. // 따로 공개를 원하지 않는 파일들을 제외시킬 때 사용한다고 한다.
+
+npm init / npm install express // node_modules
+
+npm init 시 package.json 파일이 생성되며 해당 파일에서 내가 설치한 모듈들을 확인 할 수 있다. 그리고 package.json 파일만 있다면 해당 파일에 설치된 모듈들을 npm install package.json 명령어로 한번에 전부 설치가 가능하다.
+
+express 로 서버를 작동시키기 위해서 express 모듈을 따로 설치해야 하며 설치 방법은 npm install express
+npm install '모듈명' 을 사용하여 다른 모듈들도 추가로 설치가 가능하다.
+
+node_modules 폴더는 모듈을 처음 설치할 때 생성이 되며 사용 가능한 모듈들이 담겨있는 폴더이다. js에서 클래스에 변수들을 담아 꺼내 사용하는 느낌처럼 node_modules에 담겨진 모듈들을 우리가 쉽게 사용가능하다.
+
