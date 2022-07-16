@@ -1,0 +1,23 @@
+{
+  "name": "nodeprac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onedayonecommit/nodeprac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onedayonecommit/nodeprac/issues"
+  },
+  "homepage": "https://github.com/onedayonecommit/nodeprac#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
